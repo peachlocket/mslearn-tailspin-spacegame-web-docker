@@ -80,4 +80,4 @@ stages:
       inputs:
        appName: $(WebAppName)
        azureSubscription: 'Resource Manager - Tailspin - Space Game'
-       imageName: $(RegistryName)/$(webRepository):$(build.buildId)
+       containers: $(RegistryName)/$(webRepository):$(build.buildId)
